@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>FlashCard</title>
+</head>
+
+<body>
+    <main>
+        <section id="container">
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>1</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>@</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p> 2</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>#</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>3</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>%</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>4</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>@</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>5</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>o JavaScript é uma linguagem de programação</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>6</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>&</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>7</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p> %</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>8</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>&</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p> 9</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>#</p>
+                    </div>
+                </div>
+
+                <script>
+                    // Seleciona todos os cartões
+                    document.querySelectorAll('.cartao').forEach(cartao => {
+                        // Adiciona o evento de clique
+                        cartao.addEventListener('click', () => {
+                            // Alterna a classe `is-flipped` no cartão ao ser clicado
+                            cartao.classList.toggle('is-flipped');
+                        });
+                    });
+                </script>
+                
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p> Projeto desenvolvido pela Alura, sem fins lucrativos</p>
+    </footer>
+
+</body>
+
+</html>
